@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-image: url('Muffinka64.png');
+    color: rgb(255, 255, 255);
+    background-size: 10vw;
+    overflow-x: hidden;
+}
+
+#top {
+    display: flex;
+    align-items: center;       /* vertical center */
+    justify-content: flex-start; /* start from the left */
+    padding: 0 1rem;           /* some left/right spacing */
+    height: 10vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(98, 83, 237, 1) 100%);
+    gap: 1rem;                 /* space between img and text */
+}
+
+#top img {
+    height: 10vh;
+    width: 10vh;
+}
+
+#margin h1:hover {
+    color: rgb(255, 61, 61);
+}
+
+#margin p:hover {
+    color: rgb(255, 61, 61);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#margin {
+    margin: 2vw;
+}
+
+button {
+    height: 7vh;
+    font-size: 1.5rem;
+    color: black;
+    background: linear-gradient(90deg,rgba(117, 89, 255, 1) 0%, rgba(163, 83, 237, 1) 100%);
+}
+button:hover {
+    font-size: 2rem;
+    cursor: pointer;
+    border: 5px solid rgb(255, 255, 255);
+}
